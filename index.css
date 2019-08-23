@@ -91,7 +91,7 @@ main > .job-intention {
     grid-row: 3;
     grid-column: 1;
     margin-top:30px;
-    border:1px solid yellow;
+    border-bottom:1px solid #0B70BD;
 }
 .job-intention >figcaption{
     display:flex;
@@ -112,6 +112,101 @@ main > .job-intention {
     justify-content: center;
 }
 .job-intention >figcaption >div>img{
+    width:24px;
+    height:24px;
+}
+main > .job-intention-detail {
+    grid-row: 4;
+    grid-column: 1;
+    margin-top:20px;
+    display:flex;
+    align-items: center;
+}
+.job-intention-detail > figcaption {
+    display:flex;
+    align-items: center;
+    padding:0 16px;
+    font-size:16px;
+    font-weight: 700;
+    color:#747474;
+}
+
+.job-intention-detail > figcaption >img {
+    width:24px;
+    height:24px;
+   
+}
+main > .educate {
+    grid-row: 5;
+    grid-column: 1;
+    margin-top:30px;
+    border-bottom:1px solid #0B70BD;
+}
+.educate >figcaption{
+    display:flex;
+    align-items: center;
+    font-size:20px;
+    color:#0B70BD;
+    font-weight: bold;
+}
+.educate > figcaption >div {
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background-color: #0B70BD;
+    margin-right:10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.educate >figcaption >div>img{
+    width:24px;
+    height:24px;
+}
+main > .educate-detail{
+    grid-row: 6;
+    grid-column: 1;
+    margin-top:30px;
+    display:flex;
+    align-items: center;
+}
+.educate-detail > figcaption {
+    display:flex;
+    align-items: center;
+    padding:0 16px;
+    font-size:16px;
+    font-weight: 700;
+    color:#747474;
+}
+
+.educate-detail > figcaption >img {
+    width:24px;
+    height:24px;
+}
+main > .project {
+    grid-row: 6;
+    grid-column: 1;
+    margin-top:30px;
+    border-bottom:1px solid #0B70BD;
+}
+.project >figcaption{
+    display:flex;
+    align-items: center;
+    font-size:20px;
+    color:#0B70BD;
+    font-weight: bold;
+}
+.project > figcaption >div {
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background-color: #0B70BD;
+    margin-right:10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.project >figcaption >div>img{
     width:24px;
     height:24px;
 }
