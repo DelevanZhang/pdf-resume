@@ -258,6 +258,8 @@ main>.cnode {
     padding: 5px 0;
 }
 
+
+
 .cnode>figcaption>span>a {
     color: #747474;
 }
@@ -421,6 +423,7 @@ main>.skill-detail {
 
 main>.skill-detail >span.title {
     font-weight: bold;
+    color:#4CA1DF;
 }
 
 
