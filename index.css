@@ -304,7 +304,7 @@ main>.keynav {
 main>.blog {
     grid-row: 9;
     grid-column: 1;
-    margin-top: 20px;
+    margin-top: 200px;
     font-size: 20px;
     color: #747474;
     font-weight: bold;
@@ -359,7 +359,8 @@ main>.canvas {
 
 .canvas>figcaption>img {
     width: 186px;
-    height: 218px;
+    height: 114px;
+    
 }
 
 .canvas>figcaption>.cnodespan {
@@ -381,7 +382,7 @@ main>.canvas {
 main>.skill {
     grid-row: 11;
     grid-column: 1;
-    margin-top: 80px;
+    margin-top: 40px;
     border-bottom: 1px solid #0B70BD;
 }
 
