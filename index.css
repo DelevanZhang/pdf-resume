@@ -263,11 +263,49 @@ main>.cnode {
 .cnode>figcaption>span>a {
     color: #747474;
 }
+main>.wxTomato {
+    grid-row: 7;
+    grid-column: 1;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #747474;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #747474;
+}
+
+.wxTomato>figcaption {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.wxTomato>figcaption>img {
+    width: 186px;
+    height: 114px;
+}
+
+.wxTomato>figcaption>.cnodespan {
+    align-self: center;
+}
+
+.wxTomato>figcaption>span {
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+
+
+.wxTomato>figcaption>span>a {
+    color: #747474;
+}
 
 main>.keynav {
     grid-row: 8;
     grid-column: 1;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 20px;
     color: #747474;
     font-weight: bold;
